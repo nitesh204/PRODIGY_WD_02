@@ -1,0 +1,100 @@
+/* styles.css */
+
+body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://wallpapertag.com/wallpaper/full/a/a/5/116701-black-background-images-1920x1200-pictures.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f5f5f5;
+    font-family: 'Mooli',sans-serif,;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Mooli', sans-serif;
+    color:white;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.stopwatch-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin: 0 auto;
+}
+.stopwatch {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.stopwatch:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.display {
+    font-family: 'Courier New', monospace;
+    font-size: 48px;
+    margin-bottom: 20px;
+    transition: color 0.2s;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    font-family:'Mooli', sans-serif ;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.laps {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin-top: 20px;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.laps li {
+    font-size: 14px;
+    margin-bottom: 5px;
+    transition: background-color 0.2s;
+}
+
+.laps li:hover {
+    background-color: #f0f0f0;
+}
